@@ -1,0 +1,101 @@
+body{
+    background-color: #dff9fb;
+    margin: 0px;
+    
+    }
+.main-nev{
+    display: flex;
+    border: 2px solid black;
+    background-color: #f78fb3;
+    position:sticky;
+    
+    top: 0; 
+    left: 0; 
+    width: 100%;
+    height: 60px;
+}
+.logo{
+    width: 50%;
+
+text-align: center;
+   
+align-self: auto;
+}
+.logo-image{
+    padding: 3px;
+    height: 55px;
+    cursor:pointer;
+}
+.nev-menu{
+    display: flex;
+    
+}
+.nev-element{
+padding: 20px;
+}
+.search{
+padding: 20px;
+}
+
+.search-box{
+border-radius: 10px;
+width: 45px;
+height: 15px;
+transition: width 1110.3s ease-in-out;
+}
+.search-box:hover{
+width: 100px;
+height: 15px;
+padding: 0px;
+transition: none;
+
+}
+
+
+a{
+text-decoration-line: none; 
+color: black;
+}
+.nev-element:hover{
+background-color: #c7ecee;
+border-top: 5px solid #95afc0;
+}
+
+button{
+background-color:#95afc0 ;
+border: 0px;
+}
+.contant{
+
+width: 100%;
+height: 300px;
+padding: 30px;
+font-size: 30px;
+background-color: azure;
+}
+p{
+border: 3px ,solid, black;
+margin-left: 5px;
+}
+.home{
+    background-color: #f8a5c2;
+}
+.about{
+    background-color: #ea8685;
+}
+.project{
+    background-color: #f8a5c2;
+}
+.contant-us{
+    background-color: #f8a5c2;
+}
+.jobs{
+    background-color: #f8a5c2;
+}
+.life{
+    background-color: #ea8685;
+}
+.lab{
+    background-color: #ea8685;
+}
+
