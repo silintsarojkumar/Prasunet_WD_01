@@ -3,11 +3,13 @@ body{
     margin: 0px;
     
     }
+    
 .main-nev{
     display: flex;
     border: 2px solid black;
     background-color: #f78fb3;
     position:sticky;
+    
     
     top: 0; 
     left: 0; 
@@ -65,11 +67,12 @@ button{
 background-color:#95afc0 ;
 border: 0px;
 }
-.contant{
+.section{
 
 width: 100%;
 height: 300px;
-padding: 30px;
+padding: 40px;
+
 font-size: 30px;
 background-color: azure;
 }
@@ -77,25 +80,25 @@ p{
 border: 3px ,solid, black;
 margin-left: 5px;
 }
-.home{
+#home{
     background-color: #f8a5c2;
 }
-.about{
+#about{
     background-color: #ea8685;
 }
-.project{
+#project{
     background-color: #f8a5c2;
 }
-.contant-us{
+#contant-us{
     background-color: #f8a5c2;
 }
-.jobs{
+#jobs{
     background-color: #f8a5c2;
 }
-.life{
+#life{
     background-color: #ea8685;
 }
-.lab{
+#lab{
     background-color: #ea8685;
 }
 
