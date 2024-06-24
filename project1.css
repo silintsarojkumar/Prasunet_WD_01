@@ -1,50 +1,167 @@
 body{
-    background-color: #dff9fb;
+   
     margin: 0px;
+    width: 100%;
     
     }
+.main-nev.scrolled {
+        background-color: rgb(0, 46, 95) /* Example changed color */
+      }    
     
 .main-nev{
     display: flex;
-    border: 2px solid black;
-    background-color: #f78fb3;
-    position:sticky;
-    
-    
-    top: 0; 
-    left: 0; 
+    align-items: center;
+    justify-content: space-between;
     width: 100%;
-    height: 60px;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: 10px 20px 10px 20px;
+    transition: background-color 0.4s ease-in-out;
+    
+    
+    
+}
+header.scrolled{
+    background-color: #007bff;
+    opacity: 1;
+
 }
 .logo{
-    width: 50%;
-
-text-align: center;
+    align-self: self-start;
+    font-size: 2.5rem;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    padding-top: 5px;
+    
+    
+}
+.tital{
    
-align-self: auto;
+    
+        color: #ff6f61;
+        font-family: 'Roboto', sans-serif;
+        font-size: 28px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    
+
 }
-.logo-image{
-    padding: 3px;
-    height: 55px;
-    cursor:pointer;
+.logo img{
+    height: 30px;
+    width: 22px;
+    
 }
-.nev-menu{
+.nev-menu ul {
+    position: relative;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    
     display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: .5rem 1rem;
+}
+.nev-menu ul li{
+    margin: 0 1.5rem;
+    height: 30px;
+    list-style: none;
+}
+.nev-menu ul li a{
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
     
 }
 .nev-element{
 padding: 20px;
 }
-.search{
-padding: 20px;
+
+.home{
+    min-height: 100vh;
+    width: 100vw;
+    background-image: url(https://prasunet.com/images/home4.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    text-align: center;
+    position: relative;
+    overflow: hidden
+    
+}
+.home h1{
+    color: white;
+    font-size: 55px;
+    margin: 0px;
+}
+.home h2{
+    color: white;
+    font-size: 30px;
+    margin: 5px;
 }
 
-.search-box{
-border-radius: 10px;
-width: 45px;
-height: 15px;
-transition: width 1110.3s ease-in-out;
-}
+ .about{
+    margin-top: 50px;
+    min-height: 55vh;
+    width: 100vw;
+    top: -3rem;
+    display: grid;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    line-height: 10rem;
+ }
+ .about h1{
+    margin: 2rem;
+    padding-top: 6rem;
+    display: inline-block;
+    font-size: 35px;
+    color: #002e5f;
+    position: relative;
+    letter-spacing: .2rem;
+    text-align: center;
+    width: 300px;
+    height: 102px;
+    justify-self: center;
+    margin: 0px;
+    padding: 0px;
+    
+ }
+ .about .raw{
+    line-height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 4rem;
+ }
+ .about .raw .content{
+    text-align: center;
+ }
+ .about .raw .content .h3{
+    font-size: 3rem;
+    color: black;
+ }
+ .about h3{
+    margin: 0px;
+    font-size: 30px;
+    text-align: center;
+    width: 788px;
+    height: 36px;
+ }
+ .about div p{
+    font-size: 20px;
+    text-align: center;
+    width: 800px;
+    height: 100px;
+
+ }
 .search-box:hover{
 width: 100px;
 height: 15px;
@@ -56,7 +173,7 @@ transition: none;
 
 a{
 text-decoration-line: none; 
-color: black;
+color: white;
 }
 .nev-element:hover{
 background-color: #c7ecee;
@@ -76,29 +193,9 @@ padding: 40px;
 font-size: 30px;
 background-color: azure;
 }
-p{
-border: 3px ,solid, black;
-margin-left: 5px;
+li a:hover{
+    
+    background-color: #ff6f61;
 }
-#home{
-    background-color: #f8a5c2;
-}
-#about{
-    background-color: #ea8685;
-}
-#project{
-    background-color: #f8a5c2;
-}
-#contant-us{
-    background-color: #f8a5c2;
-}
-#jobs{
-    background-color: #f8a5c2;
-}
-#life{
-    background-color: #ea8685;
-}
-#lab{
-    background-color: #ea8685;
-}
+
 
