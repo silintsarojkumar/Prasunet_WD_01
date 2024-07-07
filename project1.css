@@ -198,4 +198,35 @@ li a:hover{
     background-color: #ff6f61;
 }
 
+@media(max-width: 1000px){
+    .nev-menu{
+        display: none;
+    }
+    .home h1{
+        font-size: 33px;
+    }
+    .home h2{
+        font-size: 16px;
+    }
+    .about h1{
+        font-size: 28px;
+        height: 0px;
+    }
+    .content h3{
+        font-size: 16px;
+
+    }
+    #about-text{
+        font-size: 10.4px;
+        margin: 0px;
+        display: inline;
+    }
+    .about .raw{
+        line-height: 1rem;
+        align-items: start;
+        text-transform: capitalize;
+        
+     }
+}
+
 
